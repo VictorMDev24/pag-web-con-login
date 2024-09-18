@@ -84,7 +84,7 @@ header {
 .fondo {
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 440px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5 );
     border-radius: 20px;
@@ -93,9 +93,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    transition: transform.5s ease height .2s ease;
-    transform: scale(0);
+    overflow: hidden; 
+    transition: transform .5s ease height .2s ease;
+    transform: scale(0); 
 }
 
 .fondo.active-btn {
@@ -121,7 +121,7 @@ header {
     transform: translateX(-400px);
 }
 
-.fondo.contenedor-form.registrar {
+.fondo.contenedor-form .registrar {
     position: absolute;
     transition: none;
     transform: translateX(400px);
@@ -251,4 +251,3 @@ header {
 .registrar p a:hover {
     text-decoration: underline;
 }
- 

@@ -2,11 +2,11 @@
 
     const fondo = document.querySelector(".fondo")
     const loginlink = document.querySelector(".login-link")
-    const resgistrarlink = document.querySelector(".resgistrar-link")
+    const registrarlink = document.querySelector(".registrar-link")
     const btn = document.querySelector(".btn")
     const iconocerrar = document.querySelector(".icono-cerrar")
 
-    resgistrarlink.addEventListener("click", () =>{
+    registrarlink.addEventListener("click", () =>{
         fondo.classList.add('active')
     }) ;
 
