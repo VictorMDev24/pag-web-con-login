@@ -315,7 +315,7 @@ body {
     .menu .navegacion a  {
         margin: 20px 25px ;
         flex-direction: column;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: right;
         margin-bottom: 25px;
         display: flex;
